@@ -6,7 +6,7 @@ authors: ["Lucas Pluvinage"]
 tags: []
 build: [ "jbuilder" "build" "-x" "esp32" "-p" "lcd"]
 depends: [
-  "jbuilder" {build}
+  "dune" {build}
   "cstruct-esp32"
   "ocaml-esp32"
   "esp32-idf-headers"
